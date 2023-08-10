@@ -1,0 +1,16 @@
+<mxfile host="app.diagrams.net" modified="2023-08-10T14:17:12.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="yJtvqm3kBgj8ycir6wdW" version="21.6.6" type="device">
+  <diagram name="Page-1" id="bugg03VAddI8MreyXM6e">
+    <mxGraphModel dx="996" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T1VgSJMy75AFHIeZju6J-2" value="DecoyDuck" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="140" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="T1VgSJMy75AFHIeZju6J-3" value="quack() {&lt;br&gt;// don&#39;t do anything&lt;br&gt;}&lt;br&gt;&lt;br&gt;fly() {&lt;br&gt;// don&#39;t do anything&lt;br&gt;}&lt;br&gt;&lt;br&gt;display() {&lt;br&gt;// I am a wooden decoy duck&lt;br&gt;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="T1VgSJMy75AFHIeZju6J-2">
+          <mxGeometry y="26" width="140" height="184" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
