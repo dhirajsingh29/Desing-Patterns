@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2023-08-29T17:26:51.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="dBIz8oDFM-zHNByLCHPV" version="21.6.6" type="device">
+  <diagram name="Page-1" id="No7O4A_Uq5Ukz30xT3aP">
+    <mxGraphModel dx="1034" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WB-ahJv37rw48Ibi2NWJ-29" value="WeatherData" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="WB-ahJv37rw48Ibi2NWJ-32" value="&lt;div&gt;getTemperature()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;getHumidity()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;getPressure()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;measurmentsChanged()&lt;/div&gt;&lt;div&gt;....&lt;/div&gt;&lt;div&gt;// other methods&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WB-ahJv37rw48Ibi2NWJ-29">
+          <mxGeometry y="26" width="160" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="WB-ahJv37rw48Ibi2NWJ-33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="20" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="WB-ahJv37rw48Ibi2NWJ-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WB-ahJv37rw48Ibi2NWJ-33" target="WB-ahJv37rw48Ibi2NWJ-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="110" as="sourcePoint" />
+            <mxPoint x="320" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WB-ahJv37rw48Ibi2NWJ-35" value="&lt;div&gt;These three methods return the most recent weather measurements for temperature, humidity and barometric pressure respectively.&lt;/div&gt;&lt;div&gt;Whenever WeatherData has latest data, measurementsChanged() method is called.&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="10" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WB-ahJv37rw48Ibi2NWJ-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.875;exitY=0.722;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WB-ahJv37rw48Ibi2NWJ-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="220" as="sourcePoint" />
+            <mxPoint x="350" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WB-ahJv37rw48Ibi2NWJ-37" value="This method gets called whenever the weather measurements have been updated. So our job is to alter the measurementsChanged() method so that it updates the three displays for current conditions, weather stats and forecast." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="138" width="420" height="72" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
